@@ -44,9 +44,14 @@ main{
 h1, h2{
   font-family: 'Open Sans', sans-serif;
   display: flex;
-}
-h2{
+
   text-align: center;
+}
+h1{
+  text-shadow: 10px 10px 5px grey;
+}
+p, li{
+  text-align:left;
 }
 .description{
   text-align: left;
@@ -56,6 +61,12 @@ h2{
   height: 25%;
   float: left;
   font-family: 'Prata', serif;
+  background-color: rgb(74,	148, 237);
+  margin: 10pt;
+  border-radius:15px;
+  text-align: center;
+  padding: 10pt;
+  box-shadow: 10px 10px 5px grey;
 }
 .logo:hover{
   box-shadow: none;
