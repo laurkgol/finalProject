@@ -1,21 +1,17 @@
 body{
-  background-image: url("../images/background.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.container{
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-right: 50px
-  padding-left: 50px;
-  margin: 100px;
-  justify-content: space-around;
-  text-align: center;
+}
+.header{
+  display: flex;
+  flex-direction: row;
 
 }
+h1{
+  font-family: 'Poppins', sans-serif;
+  margin-left: 50px;
+}
+
 .photo{
   height:200px;
   width: 200px;
@@ -25,8 +21,8 @@ body{
   background-color: rgb(91 211 254);
 }
 .logo{
-  height: 50px;
-  width: 50px;
+  height: 30px;
+  width: 30px;
   margin-left: 10px;
   margin-right: 10px;
   box-shadow: 10px 10px 5px grey;
@@ -34,45 +30,28 @@ body{
 }
 
 .social{
-  display: flex;
-  justify-content: space-between;
+  display: inline-block;
 }
-main{
-  font-family: 'Open Sans', sans-serif;
-  margin: 25px;
-}
-h1, h2{
-  font-family: 'Open Sans', sans-serif;
-  display: flex;
 
-  text-align: center;
-}
-h1{
-  text-shadow: 10px 10px 5px grey;
-}
-p, li{
-  text-align:left;
-}
-.description{
-  text-align: left;
-  display: block;
-  justify-content: center;
-  width: 30%;
-  height: 25%;
-  float: left;
-  font-family: 'Prata', serif;
-  background-color: rgb(74,	148, 237);
-  margin: 10pt;
-  border-radius:15px;
-  text-align: center;
-  padding: 10pt;
-  box-shadow: 10px 10px 5px grey;
-}
+
+
 .logo:hover{
   box-shadow: none;
 }
-@media screen and (max-width: 320px){
-  .description{
-    width: 100%;
-  }
+
+
+.firstdiv{
+  height: 50vh;
+  width: 100%;
+  background-image: url("../images/arches.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#headshot{
+  border-radius:50%;
+  width: 15%;
+  position: absolute;;
+  top: 250px;
+  left: 50px;
 }
