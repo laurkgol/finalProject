@@ -50,8 +50,8 @@ main{
 }
 
 iframe{
-  width:700px;
-  height: 1000px;
+  width:800px;
+  height: 95vh;
 }
 
 .tabs{
@@ -105,6 +105,7 @@ nav{
 
 .section{
   padding: 25px;
+  height: 100vh;
 }
 
 i{
@@ -124,4 +125,33 @@ i{
   diplay: flex;
   width: 50%;
   flex-direction: column;
+}
+#Projects{
+  background-image: url("../images/lightboards.jpg");
+  background-size: cover;
+}
+
+.projectDivs{
+  display: block;
+  float: left;
+  diplay: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  padding: 25px;
+  margin-left: 30px;
+  justify-content: space-around;
+}
+
+.project{
+  display: inline-block;
+  background-color: hsla(238, 0%, 50%, 0.51);
+  text-align: center;
+  width: 30%;
+  margin: 10px;
+  height: 40vh;
+}
+
+.projectPhoto{
+  width: 90%;
 }
