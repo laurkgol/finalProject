@@ -1,0 +1,219 @@
+*{
+  margin: 0;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  /*margin-left: 150px;
+  margin-right: 150px;*/
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  }
+h1{
+  font-family: 'Poppins', sans-serif;
+  margin-left: 50px;
+}
+.project-name, .contact-me, .tabs a{
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  font-size: 30px;
+}
+.project-name{
+  margin: 30px;
+}
+.tabs a{
+  font-size: 20px;
+}
+
+.firstdiv{
+  height: 90vh;
+  width: 100%;
+  background-image: url("../images/cropped.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+#headshot{
+  border-radius:50%;
+  height: 40vh;
+  margin-bottom: 10px;
+}
+
+main{
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  align-content: center;
+  justify-content: space-around;
+}
+
+.resume{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+iframe{
+  width:800px;
+  height: 75vh;
+}
+
+.tabs{
+  position: absolute;
+  top: 5px;
+  right: 50px;
+}
+
+.tabs h3{
+  text-decoration: none;
+  display: inline-block;
+  float:right;
+  margin: 10px;
+
+}
+.tabs ul:last-child{
+  margin-left: 20px;
+}
+
+nav{
+  position: fixed;
+  height: 10vh;
+}
+
+.intro{
+  display: inline-block;
+  background-color: hsla(238, 0%, 50%, 0.51);
+  padding: 100px;
+  position: absolute;
+  right: 150px;
+  top: 150px;
+  text-align: center;
+}
+
+.text{
+  display: block;
+  width: 30%;
+  padding: 30px;
+  margin: 25px;
+  margin-top: 100px;
+}
+.images{
+  diplay: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30px;
+  margin-top: 40px;
+}
+
+
+.section{
+  padding: 25px;
+  height: 100vh;
+}
+
+#About{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+
+}
+
+i{
+  font-size: 50pt;
+  margin: 10pt;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.icons{
+  diplay: flex;
+  width: 50%;
+  flex-direction: column;
+  margin: 0;
+}
+#Projects{
+  background-image: url("../images/lightboards.jpg");
+  background-size: cover;
+}
+
+.projectDivs{
+  display: block;
+  float: left;
+  diplay: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  padding: 25px;
+  margin-left: 30px;
+  justify-content: space-around;
+}
+
+.project{
+  display: inline-block;
+  /*background-color: hsla(238, 0%, 50%, 0.51);*/
+  text-align: center;
+  width: 30%;
+  margin: 10px;
+  height: 60vh;
+  overflow: scroll;
+}
+
+.projectPhoto{
+  width: 100%;
+}
+#Contact{
+  /*background-color: hsla(199, 33%, 66%, 0.52);*/
+
+}
+
+.logo img{
+  width: 200px;
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.logo div{
+  width: 33%;
+  text-align: center;
+  /*background-color: #8cb3c5;
+  height: 50vh;
+  margin: 0;*/
+}
+p{
+  margin: 5px;
+  text-align: justify;
+}
+
+.resume img{
+  width: 100px;
+  margin: 20px;
+}
+
+.fixed {
+    position: fixed;
+    top:0; left:0;
+    width: 100%; }
