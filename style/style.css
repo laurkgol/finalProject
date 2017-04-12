@@ -64,9 +64,8 @@ main{
   align-items: center;
 }
 
-iframe{
-  width:800px;
-  height: 75vh;
+object{
+  height: 100vh;
 }
 
 .tabs{
@@ -244,18 +243,95 @@ h2{
   text-align: center;
   font-family: 'Poppins', sans-serif;
 }
-
-@media only screen and (max-width: 500px) {
-    .tabs{
+.resume-download{
+  display: none;
+}
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+  .tabs{
       display: none;
     }
-    main{
-      height: 30vh;
+    .firstdiv{
+      /*height: 40vh;*/
+      width: 100%;
+      margin: 0;
     }
     .intro{
       position: absolute;
-      right: 20px;
-      top: 150px;
+      right: 50px;
+      top: 500px;
       padding: 10px;
+    }
+    h1{
+      text-align: center;
+      font-size: 50pt;
+      margin-bottom: 10pt;
+    }
+    p, li{
+      font-size: 30pt;
+    }
+    .section{
+      text-align: center;
+      overflow: none;
+      margin: 0;
+    }
+    #About{
+      flex-direction: column;
+      margin: 0;
+    }
+    #About img{
+      display: none;
+   }
+    .text{
+      width: 90%;
+      margin-top: 10px;
+
+    }
+    ul{
+      text-align: left;
+    }
+
+    .projectDivs{
+      justify-content: none;
+
+    }
+    .project{
+      width: 90%;
+      margin: 0;
+      padding: 5px;;
+      height: 30vh;
+    }
+    .project-name{
+      font-size: 40pt;
+    }
+    .project-disc{
+      display: none;
+    }
+    .icons{
+      width: 100%;
+    }
+    #Resume{
+      height: 10vh;
+    }
+    .contact-title{
+      display: none;
+    }
+    .resume-download{
+      display: block;
+    }
+    object{
+      display: none;
+    }
+    .contact-container{
+      height: 20vh;
+    }
+    h2{
+      font-size: 30pt;
+    }
+    .phone{
+      display: none;
     }
 }
