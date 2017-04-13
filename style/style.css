@@ -255,6 +255,7 @@ h2{
   padding: 10px;
 }
 .contact-title{
+  padding-top: 20px;
   background-color: hsla(199, 33%, 66%, 0.52);
   width: 100%;
   margin:0;
