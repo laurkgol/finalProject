@@ -202,7 +202,8 @@ i{
   justify-content: space-around;
   align-items: center;
   width: 25%;
-  height: 40vh;
+  /*height: 40vh;*/
+  /*padding: 20px;*/
 
 }
 
@@ -232,17 +233,17 @@ p{
 
 .get-in-touch{
   text-align: center;
-  padding: 10px;
-
+  margin: 0;
 }
 .contact-container{
   /*padding-left: 10px;*/
   background-color: hsla(199, 33%, 66%, 0.52);
-  height: 30vh;
+  height: 40vh;
   display:flex;
   flex-direction: column;
   align-items: center;
   margin: 0;
+  justify-content: space-around;
 }
 h2{
   text-align: center;
@@ -259,7 +260,11 @@ h2{
   background-color: hsla(199, 33%, 66%, 0.52);
   width: 100%;
   margin:0;
-
+  padding-left: 50px;
+}
+.email{
+  text-align: center;
+  padding-left: 10px;
 }
 @media only screen
   and (min-device-width: 320px)
@@ -344,6 +349,9 @@ h2{
     }
     .contact-container{
       height: 20vh;
+      display: flex;
+      justify-content: center;
+      justify-content: space-around;
 
     }
     h2{
