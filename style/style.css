@@ -1,40 +1,42 @@
 *{
   margin: 0;
 }
-/*html{
-  margin: 0;
-  padding: 0;
-}*/
+
 body{
   display: flex;
   flex-direction: column;
   margin: 0;
-  /*margin-left: 150px;
-  margin-right: 150px;*/
 }
+
 .header{
   display: flex;
   flex-direction: row;
   background-color: white;
   }
+
 h1{
   font-family: 'Poppins', sans-serif;
   margin-left: 50px;
 }
+
 .project-name, .contact-me, .tabs a{
   font-family: 'Poppins', sans-serif;
   text-decoration: none;
   font-size: 30px;
 }
+
 .project-name{
   margin: 30px;
 }
+
 .tabs a{
   font-size: 20px;
 }
+
 .phone{
   display: none;
 }
+
 .firstdiv{
   height: 90vh;
   width: 100%;
@@ -86,8 +88,8 @@ object{
   display: inline-block;
   float:right;
   margin: 10px;
-
 }
+
 .tabs ul:last-child{
   margin-left: 20px;
 }
@@ -104,7 +106,6 @@ nav{
   position: absolute;
   right: 150px;
   top: 150px;
-  /*text-align: center;*/
 }
 
 .text{
@@ -114,6 +115,7 @@ nav{
   margin: 25px;
   margin-top: 100px;
 }
+
 .images{
   diplay: flex;
   align-items: center;
@@ -132,7 +134,6 @@ nav{
   display: flex;
   align-content: center;
   justify-content: center;
-
 }
 
 i{
@@ -148,12 +149,14 @@ i{
   clear: both;
   height: 0;
 }
+
 .icons{
   diplay: flex;
   width: 50%;
   flex-direction: column;
   margin: 0;
 }
+
 #Projects{
   background-image: url("../images/lightboards.jpg");
   background-size: cover;
@@ -169,7 +172,6 @@ i{
   padding: 25px;
   margin-left: 30px;
   justify-content: space-around;
-
 }
 
 .project{
@@ -185,8 +187,8 @@ i{
 .projectPhoto{
   width: 100%;
 }
+
 #Contact{
-  /*background-color: hsla(199, 33%, 66%, 0.52);*/
   height: 10vh;
   margin-top: 10%;
   padding: 0;
@@ -202,19 +204,13 @@ i{
   justify-content: space-around;
   align-items: center;
   width: 25%;
-  /*height: 40vh;*/
-  /*padding: 20px;*/
-
 }
 
 .logo div{
   width: 33%;
   text-align: center;
-  /*background-color: #8cb3c5;
-  height: 50vh;
-  margin: 0;*/
-
 }
+
 p{
   margin: 5px;
   text-align: justify;
@@ -235,6 +231,7 @@ p{
   text-align: center;
   margin: 0;
 }
+
 .contact-container{
   /*padding-left: 10px;*/
   background-color: hsla(199, 33%, 66%, 0.52);
@@ -245,16 +242,20 @@ p{
   margin: 0;
   justify-content: space-around;
 }
+
 h2{
   text-align: center;
   font-family: 'Poppins', sans-serif;
 }
+
 .resume-download{
   display: none;
 }
+
 .contact-container{
   padding: 10px;
 }
+
 .contact-title{
   padding-top: 20px;
   background-color: hsla(199, 33%, 66%, 0.52);
@@ -262,10 +263,12 @@ h2{
   margin:0;
   padding-left: 50px;
 }
+
 .email{
   text-align: center;
   padding-left: 10px;
 }
+
 @media only screen
   and (min-device-width: 320px)
   and (max-device-width: 480px)
@@ -274,89 +277,105 @@ h2{
   .tabs{
       display: none;
     }
+
     .firstdiv{
       /*height: 40vh;*/
       width: 100%;
       margin: 0;
     }
+
     .intro{
       position: absolute;
       right: 50px;
       top: 500px;
       padding: 10px;
     }
+
     h1{
       text-align: center;
       font-size: 50pt;
       margin-bottom: 10pt;
     }
+
     p, li{
       font-size: 30pt;
     }
+
     .section{
       text-align: center;
       overflow: none;
       margin: 0;
     }
+
     #About{
       flex-direction: column;
       margin: 0;
     }
+
     #About img{
       display: none;
    }
+
     .text{
       width: 90%;
       margin-top: 10px;
-
     }
+
     ul{
       text-align: left;
     }
 
     .projectDivs{
       justify-content: none;
-
     }
+
     .project{
       width: 90%;
       margin: 0;
       padding: 5px;;
       height: 30vh;
     }
+
     .project-name{
       font-size: 40pt;
     }
+
     .project-disc{
       display: none;
     }
+
     .icons{
       width: 100%;
     }
+
     #Resume{
       height: 10vh;
     }
+
     .contact-title{
       display: none;
       background-color: hsla(199, 33%, 66%, 0.52);
-
     }
+
     .resume-download{
       display: block;
     }
+
     object{
       display: none;
     }
+
     .contact-container{
       height: 20vh;
       display: flex;
       justify-content: center;
       justify-content: space-around;
-
     }
+
     h2{
       font-size: 30pt;
     }
+    
     .phone{
       display: none;
     }
