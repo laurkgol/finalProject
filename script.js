@@ -1,3 +1,6 @@
+console.log(
+ "connected"
+)
 $(window).scroll(function(){
   var sticky = $('.sticky'),
       scroll = $(window).scrollTop();
