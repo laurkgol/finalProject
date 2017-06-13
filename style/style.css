@@ -6,17 +6,21 @@ body{
   display: flex;
   flex-direction: column;
   margin: 0;
+  font-family: 'Open Sans', sans-serif;
 }
-
+p, li{
+  font-size: 15pt;
+  text-align: left;
+}
 .header{
   display: flex;
   flex-direction: row;
   background-color: white;
   }
 
-h1{
+.title{
   font-family: 'Poppins', sans-serif;
-  margin-left: 50px;
+  margin-left: 100px;
 }
 
 .project-name, .contact-me, .tabs a{
@@ -102,10 +106,12 @@ nav{
 .intro{
   display: inline-block;
   background-color: hsla(238, 0%, 50%, 0.51);
-  padding: 100px;
+  padding: 50px;
+  width: 25%;
   position: absolute;
   right: 150px;
   top: 150px;
+  text-align: left;
 }
 
 .text{
@@ -130,10 +136,12 @@ nav{
   height: 100vh;
 }
 
+
 #About{
   display: flex;
   align-content: center;
   justify-content: center;
+  /*height: auto;*/
 }
 
 i{
@@ -213,7 +221,7 @@ i{
 
 p{
   margin: 5px;
-  text-align: justify;
+  text-align: left;
 }
 
 .resume img{
@@ -256,18 +264,20 @@ h2{
   padding: 10px;
 }
 
-.contact-title{
+#contact-title{
   padding-top: 20px;
   background-color: hsla(199, 33%, 66%, 0.52);
   width: 100%;
   margin:0;
-  padding-left: 50px;
+  padding-left: 100px;
 }
 
 .email{
   text-align: center;
   padding-left: 10px;
 }
+
+
 
 @media only screen
   and (min-device-width: 320px)
@@ -375,7 +385,7 @@ h2{
     h2{
       font-size: 30pt;
     }
-    
+
     .phone{
       display: none;
     }
