@@ -291,12 +291,23 @@ h2{
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
-  .tabs{
+    .tabs{
       display: none;
+    }
+    h1{
+      text-align: center;
+    }
+    .sticky{
+      height: 10vh;
+      text-align: center;
+    }
+
+    .name{
+      text-align: center;
     }
 
     .firstdiv{
-      /*height: 40vh;*/
+      height: 90vh;
       width: 100%;
       margin: 0;
     }
