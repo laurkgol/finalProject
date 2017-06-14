@@ -296,9 +296,10 @@ h2{
 
     .intro{
       position: absolute;
-      right: 50px;
+      right: 120px;
       top: 500px;
-      padding: 10px;
+      padding: 20px;
+      width: 70%;
     }
 
     h1{
@@ -362,7 +363,7 @@ h2{
       height: 10vh;
     }
 
-    .contact-title{
+    #contact-title{
       display: none;
       background-color: hsla(199, 33%, 66%, 0.52);
     }
