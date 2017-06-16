@@ -10,7 +10,7 @@ body{
 
 header{
   background-color: white;
-  height: 12vh;
+  height: 8vh;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -18,10 +18,21 @@ header{
   }
 
 .name{
-  margin-left: 50px;
+  /*margin-left: 50px;*/
+  font-size: 70pt;
 }
 h1{
   font-family: 'Poppins', sans-serif;
+}
+
+h2{
+  font-size: 25pt;
+  position: relative;
+  top: -50px;
+}
+
+i{
+  color: white;
 }
 .project-name, .contact-me,  a{
   font-family: 'Poppins', sans-serif;
@@ -103,14 +114,14 @@ nav{
   height: 10vh;
 }
 
-.intro{
+/*.intro{
   display: inline-block;
   background-color: hsla(238, 0%, 50%, 0.51);
   padding: 100px;
   position: absolute;
   right: 150px;
   top: 150px;
-}
+}*/
 
 .text{
   display: block;
