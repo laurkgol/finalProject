@@ -6,7 +6,13 @@ body{
   display: flex;
   flex-direction: column;
   margin: 0;
+  font-family: 'Open Sans', sans-serif;
 }
+p, li{
+  font-size: 15pt;
+  text-align: left;
+}
+
 
 header{
   background-color: white;
@@ -114,15 +120,6 @@ nav{
   height: 10vh;
 }
 
-/*.intro{
-  display: inline-block;
-  background-color: hsla(238, 0%, 50%, 0.51);
-  padding: 100px;
-  position: absolute;
-  right: 150px;
-  top: 150px;
-}*/
-
 .text{
   display: block;
   width: 30%;
@@ -145,10 +142,12 @@ nav{
   height: 100vh;
 }
 
+
 #About{
   display: flex;
   align-content: center;
   justify-content: center;
+  /*height: auto;*/
 }
 
 i{
@@ -228,7 +227,7 @@ i{
 
 p{
   margin: 5px;
-  text-align: justify;
+  text-align: left;
 }
 
 .resume img{
@@ -271,18 +270,19 @@ h2{
   padding: 10px;
 }
 
-.contact-title{
+#contact-title{
   padding-top: 20px;
   background-color: hsla(199, 33%, 66%, 0.52);
   width: 100%;
   margin:0;
-  padding-left: 50px;
+  padding-left: 100px;
 }
 
 .email{
   text-align: center;
   padding-left: 10px;
 }
+
 
 #projects-button {
   background-color: hsla(199, 33%, 66%, 1);
@@ -296,6 +296,9 @@ h2{
   top: 25px;
 
 }
+
+
+
 
 @media only screen
   and (min-device-width: 320px)
@@ -325,9 +328,10 @@ h2{
 
     .intro{
       position: absolute;
-      right: 50px;
+      right: 120px;
       top: 500px;
-      padding: 10px;
+      padding: 20px;
+      width: 70%;
     }
 
     h1{
@@ -395,7 +399,7 @@ h2{
       height: 10vh;
     }
 
-    .contact-title{
+    #contact-title{
       display: none;
       background-color: hsla(199, 33%, 66%, 0.52);
     }
