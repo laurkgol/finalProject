@@ -87,6 +87,11 @@ main{
   align-content: center;
   justify-content: space-around;
 }
+#Resume{
+  background-image: url("../images/lightboards.jpg");
+  background-size: cover;
+  margin: 0;
+}
 
 .resume{
   display: flex;
@@ -137,7 +142,7 @@ nav{
 
 .section{
   padding: 25px;
-  height: 100vh;
+  /*height: 100vh;*/
 }
 
 
@@ -207,7 +212,6 @@ i{
 
 #Contact{
   height: 10vh;
-  margin-top: 10%;
   padding: 0;
 }
 
@@ -273,13 +277,7 @@ h2{
   padding: 10px;
 }
 
-/*#contact-title{
-  padding-top: 20px;
-  background-color: hsla(199, 33%, 66%, 0.52);
-  width: 100%;
-  margin:0;
-  padding-left: 100px;
-}*/
+
 
 .email{
   text-align: center;
