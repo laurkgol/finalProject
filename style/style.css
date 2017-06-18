@@ -88,7 +88,9 @@ main{
   justify-content: space-around;
 }
 #Resume{
-  background-image: url("../images/lightboards.jpg");
+  /*background-image: url("../images/lightboards.jpg");*/
+  background-color: #53565a;
+  color: white;
   background-size: cover;
   margin: 0;
 }
@@ -255,7 +257,7 @@ p{
 
 .contact-container{
   /*padding-left: 10px;*/
-  background-color: hsla(199, 33%, 66%, 0.52);
+  background-color: #b4fdc0;
   height: 40vh;
   display:flex;
   flex-direction: column;
@@ -306,23 +308,39 @@ h2{
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
+
     .tabs{
-      display: none;
+      text-align: center;
+      width: 100%;
+      position: fixed;
+      /*height: 100%;*/
+    }
+
+
+    .tabs h3 a{
+      font-size: 30pt;
+      float:none;
+      text-align: center;
+      margin: 0;
     }
     h1{
       text-align: center;
     }
     .sticky{
-      height: 10vh;
+      height: 5vh;
       text-align: center;
     }
 
     .name{
-      text-align: center;
+      text-align: left;
+      font-size: 100pt;
+    }
+    h2{
+      text-align: left;
     }
 
     .firstdiv{
-      height: 90vh;
+      height: 70vh;
       width: 100%;
       margin: 0;
     }
@@ -364,10 +382,10 @@ h2{
       display: none;
    }
 
-    /*.text{
+    .text{
       width: 100%;
-      margin-top: 10px;
-    }*/
+      /*margin-top: 10px;*/
+    }
 
     ul{
       text-align: left;
@@ -397,16 +415,17 @@ h2{
     }
 
     #Resume{
-      height: 10vh;
+      height: 20vh;
+      background-image: none;
+      background-color: #53565a;
+      color: white;
     }
 
-    #contact-title{
-      display: none;
-      background-color: hsla(199, 33%, 66%, 0.52);
-    }
 
     .resume-download{
       display: block;
+      background-color: white;
+      border-radius: 50%;
     }
 
     object{
