@@ -29,6 +29,7 @@ header{
 }
 h1{
   font-family: 'Poppins', sans-serif;
+  text-align: center;
 }
 
 h2{
@@ -121,11 +122,8 @@ nav{
 }
 
 .text{
-  display: block;
-  width: 30%;
-  padding: 30px;
-  margin: 25px;
-  margin-top: 100px;
+  width: 50%;
+  text-align: center;
 }
 
 .images{
@@ -147,7 +145,12 @@ nav{
   display: flex;
   align-content: center;
   justify-content: center;
-  /*height: auto;*/
+  text-align: center;
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #009ccf;
+  color: white;
 }
 
 i{
@@ -166,7 +169,7 @@ i{
 
 .icons{
   diplay: flex;
-  width: 50%;
+  width: 100%;
   flex-direction: column;
   margin: 0;
 }
@@ -270,13 +273,13 @@ h2{
   padding: 10px;
 }
 
-#contact-title{
+/*#contact-title{
   padding-top: 20px;
   background-color: hsla(199, 33%, 66%, 0.52);
   width: 100%;
   margin:0;
   padding-left: 100px;
-}
+}*/
 
 .email{
   text-align: center;
@@ -363,10 +366,10 @@ h2{
       display: none;
    }
 
-    .text{
-      width: 90%;
+    /*.text{
+      width: 100%;
       margin-top: 10px;
-    }
+    }*/
 
     ul{
       text-align: left;
