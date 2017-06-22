@@ -38,8 +38,19 @@ h2{
   top: -50px;
 }
 
-i{
+.scroll-down{
   color: white;
+  font-size: 25pt;
+  border-radius: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 20px;
+  display: inline-block;
+  text-align: center;
+  border-style: solid;
+  border-color: white;
+  border-width: medium;
+
 }
 .project-name, .contact-me,  a{
   font-family: 'Poppins', sans-serif;
