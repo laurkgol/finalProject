@@ -362,6 +362,10 @@ h2{
       padding: 20px;
       width: 70%;
     }
+    
+    .scroll-down{
+      display: none;
+    }
 
     h1{
       text-align: center;
