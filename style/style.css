@@ -214,7 +214,6 @@ i{
   width: 30%;
   margin: 10px;
   height: 60vh;
-  overflow: scroll;
 
 }
 
@@ -362,7 +361,7 @@ h2{
       padding: 20px;
       width: 70%;
     }
-    
+
     .scroll-down{
       display: none;
     }
